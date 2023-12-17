@@ -1,0 +1,26 @@
+$background: #f6f8fc;
+$light_gray: #f8f9fa;
+$gray: #e9ecef;
+$dark_gray: #3d2d1957;
+$light_blue: #d0ebff;
+
+.between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background: #d8dbdd;
+  }
+}
